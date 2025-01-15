@@ -38,10 +38,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container-one {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+.one-header {
   display: flex;
 }
 
@@ -119,7 +116,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  display: flex;
 }
 
 .contact .contact-link:hover,
