@@ -39,10 +39,6 @@ img {
   display: flex;
 }
 
-.one-container {
-  display: flex;
-}
-
 .container {
   width: 1158px;
   margin: 0 auto;
