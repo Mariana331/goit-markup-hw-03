@@ -36,9 +36,10 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  display-flex;
 }
 
-.header-container {
+.container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -120,7 +121,7 @@ img {
   color: #404bbf;
 }
 
-.one-section {
+.one-section { 
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: #2e2f42;
@@ -134,7 +135,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
-  margin-left: 472px;
+  
 }
 
 .one-btn:hover,
@@ -155,17 +156,11 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-  margin-left: 636px;
+
 }
 .two-section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.section-two-container {
-  box-sizing: border-box;
-  width: 1128px;
-  height: 104px;
 }
 
 .visually-hidden {
