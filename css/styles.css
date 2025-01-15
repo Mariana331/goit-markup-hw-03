@@ -36,11 +36,14 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  display-flex;
+  display: flex;
+}
+
+.one-container {
+  display: flex;
 }
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -78,8 +81,9 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  margin-right: 332px;
+  padding-right: 332px;
 }
+
 .link-li {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -121,7 +125,7 @@ img {
   color: #404bbf;
 }
 
-.one-section { 
+.one-section {
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: #2e2f42;
@@ -133,9 +137,10 @@ img {
   line-height: 1.07;
   color: #fff;
   letter-spacing: 0.02em;
-  text-align: center;
   max-width: 496px;
-  
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
 
 .one-btn:hover,
@@ -156,7 +161,7 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-
+  margin: 0 auto;
 }
 .two-section {
   padding-top: 120px;
