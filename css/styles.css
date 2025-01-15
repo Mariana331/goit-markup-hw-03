@@ -43,9 +43,7 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-.one-cont {
-  display: flex;
-}
+
 .navigation {
   display: flex;
   align-items: center;
